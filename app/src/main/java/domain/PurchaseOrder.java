@@ -1,4 +1,4 @@
-package database;
+package domain;
 
 import java.time.LocalDateTime;
 
@@ -39,7 +39,7 @@ public class PurchaseOrder {
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
-    
+
 
 
 

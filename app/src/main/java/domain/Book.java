@@ -1,4 +1,4 @@
-package database;
+package domain;
 
 import java.math.BigDecimal;
 import java.util.HashSet;

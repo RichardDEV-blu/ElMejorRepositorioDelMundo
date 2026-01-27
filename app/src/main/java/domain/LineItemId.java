@@ -1,4 +1,4 @@
-package database;
+package domain;
 
 import java.io.Serializable;
 

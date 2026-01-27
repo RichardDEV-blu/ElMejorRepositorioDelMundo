@@ -35,6 +35,9 @@ dependencies {
     
     testCompileOnly("org.projectlombok:lombok:1.18.30")
     testAnnotationProcessor("org.projectlombok:lombok:1.18.30")
+
+    // Source: https://mvnrepository.com/artifact/org.jboss.weld.se/weld-se-core
+    implementation("org.jboss.weld.se:weld-se-core:6.0.4.Final")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
