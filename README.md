@@ -1,2 +1,2 @@
 # ElMejorRepositorioDelMundo
-J
+Jpql + Paralelismo
