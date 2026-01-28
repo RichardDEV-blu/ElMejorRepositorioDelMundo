@@ -9,12 +9,12 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 
 @ApplicationScoped
-public class customerRepository {
+public class CustomerRepository {
 
     private EntityManager em;
 
     @Inject
-    public void customerRepository(EntityManager em){
+    public void CustomerRepository(EntityManager em){
         this.em = em;
     }
 
